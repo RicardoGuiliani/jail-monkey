@@ -15,6 +15,8 @@ declare const _default: {
       checkSuExists: boolean;
       checkForRootNative: boolean;
       checkForMagiskBinary: boolean;
+      detectRootCloakingApps: boolean;
+      checkForBusyBoxBinary: boolean;
     },
     jailMonkey: boolean;
   };
