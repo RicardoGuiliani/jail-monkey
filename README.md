@@ -59,6 +59,8 @@ type RootedDetectionMethods = {
     checkSuExists: boolean;
     checkForRootNative: boolean;
     checkForMagiskBinary: boolean;
+    detectRootCloakingApps: boolean;
+    checkForBusyBoxBinary: boolean;
   },
   jailMonkey: boolean;
 }
